@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 public class Principal {
 
 	public static void main(String[] args) {
-		ArrayList<String> ar = new ArrayList<String>(5);
+		ArrayList<String> ar = new ArrayList<String>();
 		String input;
 		do {
 			input = JOptionPane.showInputDialog(null,
